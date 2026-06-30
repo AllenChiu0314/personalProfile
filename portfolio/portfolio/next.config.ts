@@ -6,7 +6,7 @@ import type { NextConfig } from "next";
 // handle that. If you deploy to a USER/ORG page repo named
 // "<username>.github.io" (served at the domain root), set
 // REPO_NAME to "" instead — see README for details.
-const REPO_NAME = "portfolio"; // <-- change this to your actual GitHub repo name
+const REPO_NAME = "personalProfile"; // <-- change this to your actual GitHub repo name
 
 const isGithubPages = process.env.GITHUB_PAGES === "true";
 
